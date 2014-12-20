@@ -1,6 +1,6 @@
 Package.describe({
   summary: "the last carousel you'll ever need",
-  name:    "udondan:slick",
+  name:    "dcsan:slick",
   version: "1.3.11_1",
   git:     "https://github.com/udondan/meteor-slick"
 });
