@@ -1,13 +1,13 @@
 Package.describe({
   summary: "the last carousel you'll ever need",
   name:    "dcsan:slick",
-  version: "1.3.11_1",
-  git:     "https://github.com/udondan/meteor-slick"
+  version: "1.4.1_1",
+  git:     "https://github.com/dcsan/meteor-slick"
 });
 
 Package.onUse(function(api) {
   
-  api.versionsFrom("METEOR@0.9.3.1");
+  api.versionsFrom("METEOR@1.0");
   
   api.use('jquery', 'client');
   
