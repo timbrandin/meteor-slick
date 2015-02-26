@@ -1,8 +1,7 @@
-
-Slick
-==========
-
+## Slick ##
 Slick smart package for [Meteor][1].
+
+### features ###
 
 Some features, as listed on the [demo page][2]:
 * Fully responsive. Scales with its container
@@ -17,12 +16,12 @@ Some features, as listed on the [demo page][2]:
 
 See [demo page][2] and [github project page][3] of the original Slick package for usage description and examples.
 
-#Install
+# Install #
 ```sh
 meteor add udondan:slick
 ```
 
-#Minimal example
+# Minimal example #
 ```html
 <head>
   <title>Slick example</title>
@@ -72,5 +71,5 @@ if (Meteor.isClient) {
   [2]: http://kenwheeler.github.io/slick/
   [3]: https://github.com/kenwheeler/slick/
 
-#License
+# License #
 MIT, as the original Slick package
