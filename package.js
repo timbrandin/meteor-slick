@@ -11,6 +11,8 @@ Package.onUse(function(api) {
 
   api.use('jquery', 'client');
 
+  api.use('fourseven:scss@2.0.1_5', 'client');
+
   api.addFiles([
     "vendor/slick/slick/ajax-loader.gif",
     "vendor/slick/slick/fonts/slick.eot",
@@ -20,7 +22,8 @@ Package.onUse(function(api) {
   ], "client", { isAsset: true });
 
   api.addFiles([
-    "vendor/slick/slick/slick.css",
+    "vendor/slick/slick/slick.scss",
+    "vendor/slick/slick/slick-theme.scss",
     "vendor/slick/slick/slick.js",
     "lib/overrides.css"
   ], "client");
