@@ -1,8 +1,8 @@
 Package.describe({
   summary: "The last carousel you'll ever need.",
-  name:    "dcsan:slick",
+  name:    "timbrandin:slick",
   version: "1.5.8_1",
-  git:     "https://github.com/dcsan/meteor-slick"
+  git:     "https://github.com/timbrandin/meteor-slick"
 });
 
 Package.onUse(function(api) {
