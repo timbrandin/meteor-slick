@@ -1,7 +1,7 @@
 Package.describe({
   summary: "The last carousel you'll ever need.",
   name:    "timbrandin:slick",
-  version: "1.5.8_1",
+  version: "1.5.8_2",
   git:     "https://github.com/timbrandin/meteor-slick"
 });
 
