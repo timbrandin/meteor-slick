@@ -1,7 +1,7 @@
 Package.describe({
   summary: "The last carousel you'll ever need.",
   name:    "timbrandin:slick",
-  version: "1.5.8_2",
+  version: "1.5.9",
   git:     "https://github.com/timbrandin/meteor-slick"
 });
 
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
 
   api.use('jquery', 'client');
 
-  api.use('fourseven:scss@2.0.1_5', 'client');
+  api.use('fourseven:scss@3.4.1', 'client');
 
   api.addFiles([
     "vendor/slick/slick/ajax-loader.gif",
